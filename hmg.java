@@ -9,6 +9,7 @@ public class hmg
 		JFrame frame = new JFrame("Ventana Hola Mundo");
 		noms.add("Ricardo");
 		noms.add("Álvaro");
+		noms.add("Roberto");
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		// SE CREA LA ETIQUETA, INICIALMENTE INDEPENDIENTE DE LA VENTANA
 		int num = (int)((Math.random())*noms.size());
